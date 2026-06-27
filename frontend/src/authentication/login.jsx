@@ -20,7 +20,7 @@ export default function LoginPage() {
 
           {/* Brand */}
           <h1 className="text-6xl font-extrabold tracking-tight leading-tight">
-            MediHive <span className="text-cyan-300">AI</span>
+            MedAI <span className="text-cyan-300">Smarter care, faster decisions</span>
           </h1>
 
           <p className="mt-4 text-lg text-cyan-100/90 leading-relaxed">
