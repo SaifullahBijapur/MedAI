@@ -50,6 +50,12 @@ const NAV = [
 
 const AppSidebar = () => {
   const { pathname } = useLocation()
+  const navigate = useNavigate()
+
+  const handleLogout = () => {
+    localStorage.removeItem('token')
+    navigate('/login')
+  }
 
   return (
     <aside className="sidebar">
