@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import {
   IconLayoutDashboard,
   IconUsers,
@@ -12,6 +12,7 @@ import {
   IconSettings,
   IconRobot,
   IconActivityHeartbeat,
+  IconLogout,
 } from '@tabler/icons-react'
 
 const NAV = [
@@ -85,7 +86,7 @@ const AppSidebar = () => {
           </React.Fragment>
         ))}
       </nav>
-
+{/* 
       <div className="nav-bottom">
         <div className="doctor-row" style={{ padding: 0 }}>
           <div className="doc-avatar" style={{ background: '#e8f1fc', color: '#1a6fd4' }}>AD</div>
@@ -95,7 +96,19 @@ const AppSidebar = () => {
           </div>
           <div className="status-dot on" />
         </div>
+      </div> */}
+      <div className="nav-bottom">
+        <div className="doctor-row" style={{ padding: 0 }}>
+          <div className="doc-avatar" style={{ background: '#e8f1fc', color: '#1a6fd4' }}>AD</div>
+          <div className="doc-info">
+        <div className="doc-name">Admin</div>
+      <div className="doc-dept">Administrator</div>
       </div>
+      <div onClick={handleLogout} style={{cursor:'pointer', color:'#e53e3e'}} title="Logout">
+      <IconLogout size={18} />
+      </div>
+      </div>
+    </div>
     </aside>
   )
 }

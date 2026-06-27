@@ -11,8 +11,8 @@ import BedManagement from "./elements/BedManagement"
 import Assistant from "./elements/Assistant"
 import LoginPage from "./authentication/login"
 import ProtectedRoute from "./authentication/ProtectedRoute"
-import { Routes, Route } from "react-router-dom"
-import { Navigate } from "react-router-dom"
+import { Routes, Route } from "react-router"
+import { Navigate } from 'react-router'
 import Register from "./authentication/Register"
 export function App() {
   return (

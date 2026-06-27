@@ -69,7 +69,7 @@ export function LoginForm({
   ) => {
     try {
       const res = await axios.post(
-        "https://medihive-ai-backend-psbr.onrender.com/api/auth/google",
+        "https://medai-production-8a03.up.railway.app/api/auth/google",
         {
           credential: credentialResponse.credential,
         }
