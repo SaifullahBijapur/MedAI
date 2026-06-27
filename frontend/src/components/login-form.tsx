@@ -23,7 +23,7 @@ type CredentialResponse = {
 }
 import axios from "axios"
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from 'react-router'
 export function LoginForm({
   className,
   ...props
@@ -43,7 +43,7 @@ export function LoginForm({
       setLoading(true)
 
       const res = await axios.post(
-        "https://medihive-ai-backend-psbr.onrender.com/api/auth/login",
+        "https://medai-production-8a03.up.railway.app/api/auth/login",
         {
           email,
           password,

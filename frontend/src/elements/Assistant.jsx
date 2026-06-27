@@ -12,7 +12,7 @@ const SUGGESTIONS = [
 export default function Assistant() {
   const [messages, setMessages] = useState([{
     role: 'assistant',
-    content: "Hi, I'm MediHive. I can triage symptoms, book appointments, check doctor availability, and pull up analytics. How can I help?",
+    content: "Hi, I'm MedAI. I can triage symptoms, book appointments, check doctor availability, and pull up analytics. How can I help?",
   }])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)

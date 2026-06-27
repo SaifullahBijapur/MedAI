@@ -58,7 +58,7 @@ const AppSidebar = () => {
             <IconActivityHeartbeat size={18} />
           </div>
           <div>
-            <div className="logo-text">MediHive AI</div>
+            <div className="logo-text">MedAI</div>
             <div className="logo-sub">Hospital System</div>
           </div>
         </div>

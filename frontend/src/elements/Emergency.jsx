@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import axios from 'axios'
 import { IconUrgent, IconAlertTriangle, IconClock, IconBrain, IconActivity, IconRefresh } from '@tabler/icons-react'
 
-const API = 'https://medihive-ai-backend-psbr.onrender.com'
+const API = 'https://medai-production-8a03.up.railway.app'
 const initials = (name = '') => name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2)
 
 const PRIORITY_MAP = { Critical: 'crit', High: 'crit', Medium: 'high', Low: 'med' }

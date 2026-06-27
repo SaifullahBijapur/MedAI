@@ -48,7 +48,7 @@ export default function Register() {
               Welcome Back
             </h2>
             <p className="mt-3 text-muted-foreground text-sm">
-              Sign Up to continue to your MediHive AI dashboard
+              Sign Up to continue to your MedAI dashboard
             </p>
           </div>
 

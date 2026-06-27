@@ -5,7 +5,7 @@ import { IconCalendarEvent, IconPlus, IconRobot, IconUrgent } from '@tabler/icon
 const DEPARTMENTS = ['','Cardiology','Emergency','Orthopedics','Neurology','Gastroenterology','Pulmonology','Dermatology','Pediatrics','Gynecology','General Medicine']
 const STATUSES = ['Pending','Scheduled','Completed','Cancelled']
 
-const API = 'https://medihive-ai-backend-psbr.onrender.com'
+const API = 'https://medai-production-8a03.up.railway.app'
 const DAYS = ['Su','Mo','Tu','We','Th','Fr','Sa']
 const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December']
 
